@@ -1,16 +1,16 @@
-const addBtn = document.getElementById('add');
+const addBtn = document.getElementById('add')
 
-const notes = JSON.parse(localStorage.getItem('notes'));
+const notes = JSON.parse(localStorage.getItem('notes'))
 
 if (notes) {
-  notes.forEach((note) => addNewNote(note));
+  notes.forEach(note => addNewNote(note))
 }
 
-addBtn.addEventListener('click', () => addNewNote(''));
+addBtn.addEventListener('click', () => addNewNote(''))
 
 function addNewNote(text = '') {
-  const note = document.createElement('div');
-  note.classList.add('note');
+  const note = document.createElement('div')
+  note.classList.add('note')
 
   note.innerHTML = `
     <div class="tools">
@@ -20,5 +20,23 @@ function addNewNote(text = '') {
 
     <div class="main ${text ? '' : 'hidden'}"></div> 
     <textarea class="${text ? 'hidden' : ''}"></textarea>
-    `;
+    `
+
+  const editBtn = note.querySelector('.edit')
+  const deleteBtn = note.querySelector('.delete')
+  const main = note.querySelector('.main')
+  const textArea = note.querySelector('textarea')
+
+  textArea.value = text
+  main.innerHTML = text
+
+  deleteBtn.addEventListener('click', () => {
+    note.remove()
+    updateLS()
+  })
+
+  
+
+  document.body.appendChild(note)
 }
+
