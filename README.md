@@ -1,5 +1,5 @@
 # Note-App
-This app is built with HTML | CSS ! Javascript a CRUD application were a user can take notes, it persist Data on the browser using local storage as an implementation
+This app is built with HTML | CSS | Javascript a CRUD application were a user can take notes, it persist Data on the browser using local storage as an implementation
 
 ## Built With
 
