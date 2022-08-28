@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  font-family: arial;
+  font-family: arial, sans-serif;
   flex-wrap: wrap;
   width: 100%;
   background-color: blueviolet;
