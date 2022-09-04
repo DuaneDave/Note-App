@@ -24,7 +24,7 @@ This app is built with HTML | CSS | Javascript a CRUD application were a user ca
 
 ### LIVE DEMO
 
-Check the live demo here [LINK](duanedave.github.io/note-app/)
+Check the live demo here [LINK](https://duanedave.github.io/Note-App/)
 
 
 ## Authors 1
