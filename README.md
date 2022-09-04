@@ -3,6 +3,8 @@
 # Note-App
 This app is built with HTML | CSS | Javascript a CRUD application were a user can take notes, it persist Data on the browser using local storage as an implementation
 
+![screenshot](./asset/img1.png)
+
 ## Built With
 
 - HTML
@@ -13,6 +15,16 @@ This app is built with HTML | CSS | Javascript a CRUD application were a user ca
 
 - Clone this repo to your machine by using Git clone: Git clone https://github.com/DuaneDave/Note-App.git
 - open in your vs code terminal and run live 
+
+### Run the following tests:
+
+- `npx hint .`
+- `npx stylelint "\*_/_.{css,scss}"`
+- `npx eslint .`
+
+### LIVE DEMO
+
+Check the live demo here [LINK](duanedave.github.io/note-app/)
 
 
 ## Authors 1
