@@ -13,7 +13,7 @@ This app is built with HTML | CSS | Javascript a CRUD application were a user ca
 
 ## To get a local copy up and running follow these simple example steps.
 
-- Clone this repo to your machine by using Git clone: Git clone https://github.com/DuaneDave/Note-App.git
+- Clone this repo to your machine by using Git clone: Git clone `https://github.com/DuaneDave/Note-App.git`
 - open in your vs code terminal and run live 
 - `npm install -g @lhci/cli@0.7.x`
 - `npm install --save-dev hint@6.x`
